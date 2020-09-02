@@ -1,0 +1,116 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+/*Typographie*/
+
+h1 {
+	font-family: 'Shrikhand', cursive;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+/*header*/
+
+header {
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+/*main*/
+
+.btn {
+    background: linear-gradient(to top left, #9356DC,#FF79DA);
+    color:#ffffff;
+	cursor: pointer;
+	font-size: 12px;
+	text-align: center;
+	padding: 10px;
+	border-radius: 50px;
+	width: 150px;
+	height: 30px;
+	margin: auto;
+}
+
+
+/*section*/
+
+.book {
+	text-align: center;
+	padding-bottom: 50px;
+	background-color: rgb(240, 240, 240);
+}
+
+.process {
+	
+}
+
+.action {
+	text-align: left;
+	background-color: rgb(240, 240, 240);
+	border-radius: 20px;
+	box-shadow: 8px 8px 12px rgb(200, 200, 200);
+	padding: 13px;
+	margin: 12px;
+}
+
+.restaurants {
+	padding: 15px;
+	}
+
+.menu {
+	border-radius: 20px;
+	border: solid rgb(240, 240, 240);
+	margin-bottom: 15px;
+	box-shadow: 8px 8px 12px rgb(200, 200, 200);
+}
+
+.photo {
+	border-radius: 20px 20px 0 0;
+}
+
+
+/*footer*/
+
+footer {
+	color: white;
+	background-color: rgb(44, 44, 44);
+}
+
+
+/*pages*/
+
+.btn-dish {
+	text-align: center;
+	background-color: rgb(240, 240, 240);
+	border-radius: 20px;
+	box-shadow: 8px 8px 12px rgb(200, 200, 200);
+	padding: 13px;
+	margin: 12px;
+}
+
+.btn-dish:hover {
+
+}
+
+/*Media Queries*/
+
+@media all and (max-width: 640px) {
+	
+	body {
+		width: auto;
+		margin: 0;
+		padding: 0;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+	}
+	
+}
