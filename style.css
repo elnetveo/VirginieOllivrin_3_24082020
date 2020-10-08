@@ -10,18 +10,30 @@ body {
 h1 {
 	font-family: 'Shrikhand', cursive;
 	text-align: center;
+	margin: 20px 0 auto;
 }
 
 h2 {font-family: 'Shrikhand', cursive;
 	text-align: center;
 }
 
+h3 {
+	font-size: 1.5em;
+}
+
+h4, p {
+	margin: 0;
+}
+
 a {
-	color: black;
+	color: #fff;
 	text-decoration: none;
 }
 
-/*loader*/
+.menu-titre a {
+	color: #000;
+	text-decoration: none;
+}
 
 
 /*HEADER ACCUEIL*/
@@ -32,7 +44,6 @@ header {
 	justify-content: center;
 	box-shadow: 0 2px 3px 0 rgba( 0, 0, 0, 0.1);
 }
-
 
 /*--MAIN ACCUEIL--*/
 
