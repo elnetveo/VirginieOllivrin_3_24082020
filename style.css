@@ -133,27 +133,43 @@ ul {
 
 .restaurants {
 	padding: 15px;
+	background-color: rgb(245, 245, 245)
 	}
-
-.accessmenu {
-	border-radius: 20px;
-	border: solid rgb(240, 240, 240);
-	margin-bottom: 15px;
-	box-shadow: 8px 8px 12px rgb(200, 200, 200);
-}
-
-
-i.far.fa-heart {
-	font-size: 40px;
-}
-
-i.far.fa-heart:hover {
-	color: #c8187f;
-}
 
 .photo {
 	width: 100%;
 	border-radius: 20px 20px 0 0;
+}
+
+.menu {
+	position: relative;
+	border-radius: 20px;
+	margin-bottom: 15px;
+	box-shadow: 0px 5px 10px 0px rgb(220, 220, 220);
+	background-color: #fff;
+}
+
+.menu-titre {
+	display: flex;
+	margin: 15px;
+	justify-content: space-between;
+	background-color: #fff;
+	border-radius: 20px 20px 0 0;
+	padding-bottom: 20px;
+}
+
+/*Promo*/
+
+.promo {
+	position: absolute;
+	top:20px;
+	right: 20px;
+	color: rgb(12, 107, 80);
+	background: #15DEA5;
+	border-radius: 3px;
+	padding: 15px;
+	width: 100px;
+	text-align: center;
 }
 
 
