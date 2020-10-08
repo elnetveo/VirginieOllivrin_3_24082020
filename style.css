@@ -34,56 +34,99 @@ header {
 }
 
 
-/*main*/
+/*--MAIN ACCUEIL--*/
+
+/*section concept*/
+
+.concept {
+	text-align: center;
+	padding-bottom: 20px;
+	background-color: rgb(245, 245, 245);
+}
+
+.location {
+	background-color:rgb(240, 240, 240);
+}
+
+.fas.fa-map-marker-alt {
+	padding: 15px 15px 15px 0;
+}
+
+.concept-title {
+	padding: 0 40px;
+}
+
+.lighter {
+	font-weight: lighter;
+}
+
+
+/*Boutons Map et Commander*/
 
 .btn {
 	color:#ffffff;
-	font-size: 14px;
 	background: linear-gradient(to top left, #9356DC,#FF79DA);
-	box-shadow: 0 0 5px rgba( 0, 0, 0, 0.5);
+	box-shadow: 0 5px 10px 0 rgba( 0, 0, 0, 0.3);
     text-align: center;
 	padding: 10px;
+	border: none;
 	border-radius: 50px;
-	width: 150px;
-	height: 30px;
-	margin: auto;
+	cursor: pointer;
+	width: 200px;
+	height: 50px;
+	margin: 20px auto;
 	transition: opacity 1s;
 }
 
 .btn:hover {
 	opacity: 0.5;
+	box-shadow: 0 5px 10px 0 rgba( 0, 0, 0, 0.4);
 }
-
-/*section book*/
-
-.book {
-	text-align: center;
-	padding-bottom: 50px;
-	background-color: rgb(240, 240, 240);
-}
-
-i.fas.fa-map-marker-alt {
-	padding: 20px;
-}
-
-.map {
-	display: flex;
-	background-color:rgb(211, 210, 210);
-	}
 
 /*section process*/
 
 .process {
-	
+	padding: 10px;
+	background-color: #fff;
 }
 
 .action {
+	position: relative;
 	text-align: left;
-	background-color: rgb(240, 240, 240);
-	border-radius: 20px;
-	box-shadow: 8px 8px 12px rgb(200, 200, 200);
-	padding: 13px;
-	margin: 12px;
+	height: 50px;
+	background-color: rgb(245, 245, 245);
+	border-radius: 15px;
+	box-shadow: 0px 5px 10px 0px rgb(220, 220, 220);
+	padding: 20px 13px 0 13px;
+	margin: 20px 10px;
+}
+
+ul {
+	display: flex;
+	list-style-type: none;
+}
+
+.fas.fa-mobile-alt, .fas.fa-list-ul, .fas.fa-store {
+	margin: 0 25px;
+	font-size: 20px;
+	color: #646464;
+}
+
+.fas.fa-store {
+	color: #9356DC;
+}
+
+.step {
+	position: absolute;
+	left: -10px;
+	padding-top: 2px;
+	color: #fff;
+	background-color: #9356DC;
+	border-radius: 50px;
+	width: 23px;
+	height: 20px;
+	text-align: center;
+	font-size: 0.9em;
 }
 
 /*section restaurants*/
