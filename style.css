@@ -257,26 +257,51 @@ footer {
 	color: #000;
 }
 
-/*pages*/
+/*--MAIN PAGES--*/
 
-.intro {
-	position: relative;
-}
+main {
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(245, 245, 245);
+	padding-bottom: 50px;
 
-.titreintro {
-	background-color: #fff;
-	border-radius: 20px 20px 0 0;
 }
 
 .photopage {
 	position: relative;
 	width: 100%;
-	border-radius: 20px 20px 0 0;
+}
+
+.intro {
+	position: relative;
+	background-color: rgb(245, 245, 245);
+}
+
+.titreintro {
+	display: flex;
+	justify-content: space-around;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: rgb(245, 245, 245);
+	border-radius: 40px 40px 0 0;
+}
+
+.checkbox-like--position {
+	padding-top: 20px;
+}
+
+.title-underline {
+	border-bottom: 3px solid #15DEA5;
+	padding-bottom: 5px;
 }
 
 .menupage {
 	position: relative;
+	margin: 0px 15px 30px 15px;
 }
+
+/*Boutons de sélection*/
 
 .btn-dish {
 	text-align: center;
@@ -292,14 +317,6 @@ footer {
     -o-animation: fadein 5s;
 }
 
-@keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
 
 
 /*media queries*/
