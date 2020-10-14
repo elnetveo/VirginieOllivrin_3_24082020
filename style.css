@@ -45,6 +45,10 @@ header {
 	box-shadow: 0 2px 3px 0 rgba( 0, 0, 0, 0.1);
 }
 
+.hidetitle {
+	display: none;
+}
+
 /*--MAIN ACCUEIL--*/
 
 /*section concept*/
@@ -339,7 +343,7 @@ main {
 }
 
 .checkbox-like--position {
-	padding-top: 20px;
+	margin-top: 20px;
 }
 
 .title-underline {
@@ -405,11 +409,11 @@ main {
 	transition: transform 500ms;
 }
 
-.btn-dish:active .box {
+.btn-dish:hover .box {
 	width: 70px;
 }
 
-.btn-dish:active .box > .check {
+.btn-dish:hover .box > .check {
 	transform: rotate(0deg);
 }
 
