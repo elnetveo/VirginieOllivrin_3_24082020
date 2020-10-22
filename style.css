@@ -50,9 +50,6 @@ header {
 	-webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
   }
 
-.hidetitle {
-	display: none;
-}
 
 /*  MAIN ACCUEIL  */
 
@@ -107,11 +104,11 @@ header {
 	-o-transition: opacity 1s;
   }
   
-  .btn:hover {
+.btn:hover {
 	opacity: 0.5;
 	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.4);
 	-webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.4);
-  }
+}
 
 /* section process */
 
@@ -120,36 +117,44 @@ header {
 	background-color: #fff;
 }
 
-.action {
+.actions-list {
+	display: flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	flex-direction: column;
+	-webkit-box-orient: vertical;
+	list-style-type: none;
+	padding: 0;
+}
+  
+.actions-list .item {
 	position: relative;
+	padding: 1em 0.7em;
 	padding: 20px 13px 0 13px;
 	margin: 20px 10px;
 	height: 50px;
 	text-align: left;
-	background-color: rgb(245, 245, 245);
+	background-color: whitesmoke;
 	border-radius: 15px;
 	box-shadow: 0px 5px 10px 0px gainsboro;
 	-webkit-box-shadow: 0px 5px 10px 0px gainsboro;
-	
 }
-
-ul {
-	display: flex;
-	display: -webkit-box;
-  	display: -ms-flexbox;
-	list-style-type: none;
+  
+.actions-list .item:hover {
+	background-color: rgba(147, 86, 220, 0.1);
+	cursor: default;
 }
-
-.fas.fa-mobile-alt, .fas.fa-list-ul, .fas.fa-store {
+  
+.actions-list .item:hover .icon {
+	color: #9356DC;
+}
+  
+.actions-list .icon {
 	margin: 0 25px;
 	font-size: 20px;
 	color: #646464;
 }
-
-.fas.fa-store {
-	color: #9356DC;
-}
-
+  
 .step {
 	position: absolute;
 	left: -10px;
@@ -249,9 +254,9 @@ ul {
 	  	background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
 	  	-webkit-background-clip: text;
 	}
-  }
+}
   
-  @keyframes like {
+@keyframes like {
 	0% {
 	  	opacity: 0;
 	}
@@ -267,7 +272,7 @@ ul {
 		background: -o-linear-gradient(top, #9356DC, #FF79DA);
 	  	-webkit-background-clip: text;
 	}
-  }
+}
 
 
 /*  FOOTER ACCUEIL  */
@@ -328,7 +333,7 @@ footer {
 	-webkit-animation-fill-mode: forwards;
   }
 
-  @-webkit-keyframes spin {
+@-webkit-keyframes spin {
 	0% {
 		transform: rotate(0deg);
 	  	-webkit-transform: rotate(0deg);
@@ -339,9 +344,9 @@ footer {
 	  	-webkit-transform: rotate(360deg);
 	  	visibility: hidden;
 	}
-  }
+}
 
-  @keyframes spin {
+@keyframes spin {
 	0% {
 		transform: rotate(0deg);
 	  	-webkit-transform: rotate(0deg);
@@ -352,11 +357,11 @@ footer {
 	  	-webkit-transform: rotate(360deg);
 	  	visibility: hidden;
 	}
-  }
+}
   
-  /* Page blanche Loaader */
+/* Page blanche Loaader */
 
-  @keyframes WhitePage {
+@keyframes WhitePage {
 	0% {
 	  	opacity: 0;
 	}
@@ -368,9 +373,9 @@ footer {
 	100% {
 	  	opacity: 1;
 	}
-  }
+}
   
-  @-webkit-keyframes WhitePage {
+@-webkit-keyframes WhitePage {
 	0% {
 	  	opacity: 0;
 	}
@@ -382,7 +387,7 @@ footer {
 	100% {
 	  	opacity: 1;
 	}
-  }
+}
 
 
 /*  HEADER PAGES  */
@@ -490,7 +495,7 @@ main {
 	-webkit-box-shadow: 0px 5px 10px 0px gainsboro;
 	margin-top: 20px;
 	height: 70px;
-  }
+}
 
 .box {
 	overflow: hidden;
@@ -504,8 +509,7 @@ main {
 	transition: width 1s;
 	-webkit-transition: width 1s;
 	-o-transition: width 1s;
-	
-  }
+}
 
 .check {
 	display: inline-block;
@@ -517,7 +521,7 @@ main {
 	transition: -webkit-transform 500ms;
 	-o-transition: transform 500ms;
 	transition: transform 500ms, -webkit-transform 500ms;
-  }
+}
 
 .btn-dish:hover .box {
 	width: 70px;
@@ -534,41 +538,41 @@ main {
 .up {
 	-webkit-animation: fadein 1s;
 			animation: fadein 1s;
-  }
+}
   
-  .up--1 {
+.up--1 {
 	-webkit-animation-delay: 50ms;
 			animation-delay: 50ms;
 	-webkit-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
 	opacity: 0;
-  }
+}
   
-  .up--2 {
+.up--2 {
 	-webkit-animation-delay: 150ms;
 			animation-delay: 150ms;
 	-webkit-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
 	opacity: 0;
-  }
+}
   
-  .up--3 {
+.up--3 {
 	-webkit-animation-delay: 300ms;
 			animation-delay: 300ms;
 	-webkit-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
 	opacity: 0;
-  }
+}
   
-  .up--4 {
+.up--4 {
 	-webkit-animation-delay: 450ms;
 			animation-delay: 450ms;
 	-webkit-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
 	opacity: 0;
-  }
+}
 
-  @-webkit-keyframes fadein {
+@-webkit-keyframes fadein {
 	from {
 	  -webkit-transform: translateY(20px);
 			  transform: translateY(20px);
@@ -579,9 +583,9 @@ main {
 			  transform: translateY(0);
 	  opacity: 1;
 	}
-  }
+}
   
-  @keyframes fadein {
+@keyframes fadein {
 	from {
 	  -webkit-transform: translateY(20px);
 			  transform: translateY(20px);
@@ -592,62 +596,63 @@ main {
 			  transform: translateY(0);
 	  opacity: 1;
 	}
-  }
+}
 
 
 /*  MEDIA QUERIES  */
 
 @media all and (min-width: 800px) {
 	body {
-	  width: auto;
-	  display: -webkit-box;
-	  display: -ms-flexbox;
-	  display: flex;
-	  -webkit-box-orient: vertical;
-	  -webkit-box-direction: normal;
-		  -ms-flex-direction: column;
-			  flex-direction: column;
-	  margin: 0;
-	  padding: 0;
+		width: auto;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+			-ms-flex-direction: column;
+				flex-direction: column;
+		margin: 0;
+		padding: 0;
 	}
   
 	.process, .restaurants, .intro, .menupage {
-	  display: -webkit-box;
-	  display: -ms-flexbox;
-	  display: flex;
-	  -webkit-box-orient: vertical;
-	  -webkit-box-direction: normal;
-		  -ms-flex-direction: column;
-			  flex-direction: column;
-	  -webkit-box-align: center;
-		  -ms-flex-align: center;
-			  align-items: center;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+			-ms-flex-direction: column;
+				flex-direction: column;
+		-webkit-box-align: center;
+			-ms-flex-align: center;
+				align-items: center;
 	}
   
-	.action {
-	  width: 730px;
+	.actions-list {
+	    width: 730px;
 	}
   
 	.menu, .intro, .menupage {
-	  width: 800px;
+	    width: 800px;
 	}
   
 	.container {
-	  -webkit-box-align: center;
-		  -ms-flex-align: center;
-			  align-items: center;
+		-webkit-box-align: center;
+			-ms-flex-align: center;
+				align-items: center;
 	}
   
 	.btn-dish {
-	  width: 95%;
+	    width: 95%;
 	}
   }
-  @media all and (max-width: 400px) {
+
+@media all and (max-width: 400px) {
 	.title-sup {
-	  font-size: 14px;
+	    font-size: 14px;
 	}
   
 	.menupage {
-	  margin: 0px 10px 30px 10px;
+	    margin: 0px 10px 30px 10px;
 	}
-  }
+}
