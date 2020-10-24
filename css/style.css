@@ -96,6 +96,10 @@ main {
   padding: 0 40px;
 }
 
+.concept-description {
+  padding: 0 30px;
+}
+
 .lighter {
   font-weight: lighter;
 }

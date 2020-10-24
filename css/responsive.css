@@ -28,16 +28,20 @@
 				align-items: center;
 	}
 
-/*  SECTION PROCESS ACCUEIL  */
+/*  SECTION ACCUEIL  */
   
 	.actions-list {
 	    width: 730px;
 	}
 
+	.menu {
+		width: 800px;
+	}
+
 /* SECTIONS PAGES  */
   
-	.menu, .intro, .menupage {
-	    width: 800px;
+	.intro, .menupage {
+	    width: 834px;
 	}
   
 	.container {
@@ -54,8 +58,7 @@
   }
 
   	.title-dish {
-		  width: 100%;
-		  margin-left: 45px;
+		  width: 95%;
 	  }
 
 @media all and (max-width: 400px) {
