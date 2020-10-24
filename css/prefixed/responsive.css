@@ -1,0 +1,73 @@
+@media all and (min-width: 800px) {
+	
+	body {
+		width: auto;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+			-ms-flex-direction: column;
+				flex-direction: column;
+		margin: 0;
+		padding: 0;
+	}
+
+/*  SECTIONS ACCUEIL ET PAGES  */
+  
+	.process, .restaurants, .intro, .menupage {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+			-ms-flex-direction: column;
+				flex-direction: column;
+		-webkit-box-align: center;
+			-ms-flex-align: center;
+				align-items: center;
+	}
+
+/*  SECTION PROCESS ACCUEIL  */
+  
+	.actions-list {
+	    width: 730px;
+	}
+
+/* SECTIONS PAGES  */
+  
+	.menu, .intro, .menupage {
+	    width: 800px;
+	}
+  
+	.container {
+		-webkit-box-align: center;
+			-ms-flex-align: center;
+				align-items: center;
+	}
+
+/*  BOUTONS DE SELECTION PLATS  */
+  
+	.btn-dish {
+	    width: 95%;
+	}
+  }
+
+  	.title-dish {
+		  width: 100%;
+		  margin-left: 45px;
+	  }
+
+@media all and (max-width: 400px) {
+
+/*  SECTION MENUPAGE  */
+
+	.title-sup {
+	    font-size: 14px;
+	}
+  
+	.menupage {
+	    margin: 0px 10px 30px 10px;
+	}
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Jlc3BvbnNpdmUuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztDQUVDO0VBQ0MsV0FBVztFQUNYLG9CQUFvQjtFQUNwQixvQkFBb0I7RUFDcEIsYUFBYTtFQUNiLDRCQUE0QjtFQUM1Qiw2QkFBNkI7R0FDNUIsMEJBQTBCO0lBQ3pCLHNCQUFzQjtFQUN4QixTQUFTO0VBQ1QsVUFBVTtDQUNYOztBQUVELGdDQUFnQzs7Q0FFL0I7RUFDQyxvQkFBb0I7RUFDcEIsb0JBQW9CO0VBQ3BCLGFBQWE7RUFDYiw0QkFBNEI7RUFDNUIsNkJBQTZCO0dBQzVCLDBCQUEwQjtJQUN6QixzQkFBc0I7RUFDeEIseUJBQXlCO0dBQ3hCLHNCQUFzQjtJQUNyQixtQkFBbUI7Q0FDdEI7O0FBRUQsOEJBQThCOztDQUU3QjtLQUNJLFlBQVk7Q0FDaEI7O0FBRUQsb0JBQW9COztDQUVuQjtLQUNJLFlBQVk7Q0FDaEI7O0NBRUE7RUFDQyx5QkFBeUI7R0FDeEIsc0JBQXNCO0lBQ3JCLG1CQUFtQjtDQUN0Qjs7QUFFRCxpQ0FBaUM7O0NBRWhDO0tBQ0ksVUFBVTtDQUNkO0VBQ0M7O0dBRUM7SUFDQyxXQUFXO0lBQ1gsaUJBQWlCO0dBQ2xCOztBQUVIOztBQUVBLHVCQUF1Qjs7Q0FFdEI7S0FDSSxlQUFlO0NBQ25COztDQUVBO0tBQ0ksMEJBQTBCO0NBQzlCO0FBQ0QiLCJmaWxlIjoicmVzcG9uc2l2ZS5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAbWVkaWEgYWxsIGFuZCAobWluLXdpZHRoOiA4MDBweCkge1xyXG5cdFxyXG5cdGJvZHkge1xyXG5cdFx0d2lkdGg6IGF1dG87XHJcblx0XHRkaXNwbGF5OiAtd2Via2l0LWJveDtcclxuXHRcdGRpc3BsYXk6IC1tcy1mbGV4Ym94O1xyXG5cdFx0ZGlzcGxheTogZmxleDtcclxuXHRcdC13ZWJraXQtYm94LW9yaWVudDogdmVydGljYWw7XHJcblx0XHQtd2Via2l0LWJveC1kaXJlY3Rpb246IG5vcm1hbDtcclxuXHRcdFx0LW1zLWZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcblx0XHRcdFx0ZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxuXHRcdG1hcmdpbjogMDtcclxuXHRcdHBhZGRpbmc6IDA7XHJcblx0fVxyXG5cclxuLyogIFNFQ1RJT05TIEFDQ1VFSUwgRVQgUEFHRVMgICovXHJcbiAgXHJcblx0LnByb2Nlc3MsIC5yZXN0YXVyYW50cywgLmludHJvLCAubWVudXBhZ2Uge1xyXG5cdFx0ZGlzcGxheTogLXdlYmtpdC1ib3g7XHJcblx0XHRkaXNwbGF5OiAtbXMtZmxleGJveDtcclxuXHRcdGRpc3BsYXk6IGZsZXg7XHJcblx0XHQtd2Via2l0LWJveC1vcmllbnQ6IHZlcnRpY2FsO1xyXG5cdFx0LXdlYmtpdC1ib3gtZGlyZWN0aW9uOiBub3JtYWw7XHJcblx0XHRcdC1tcy1mbGV4LWRpcmVjdGlvbjogY29sdW1uO1xyXG5cdFx0XHRcdGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcblx0XHQtd2Via2l0LWJveC1hbGlnbjogY2VudGVyO1xyXG5cdFx0XHQtbXMtZmxleC1hbGlnbjogY2VudGVyO1xyXG5cdFx0XHRcdGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcblx0fVxyXG5cclxuLyogIFNFQ1RJT04gUFJPQ0VTUyBBQ0NVRUlMICAqL1xyXG4gIFxyXG5cdC5hY3Rpb25zLWxpc3Qge1xyXG5cdCAgICB3aWR0aDogNzMwcHg7XHJcblx0fVxyXG5cclxuLyogU0VDVElPTlMgUEFHRVMgICovXHJcbiAgXHJcblx0Lm1lbnUsIC5pbnRybywgLm1lbnVwYWdlIHtcclxuXHQgICAgd2lkdGg6IDgwMHB4O1xyXG5cdH1cclxuICBcclxuXHQuY29udGFpbmVyIHtcclxuXHRcdC13ZWJraXQtYm94LWFsaWduOiBjZW50ZXI7XHJcblx0XHRcdC1tcy1mbGV4LWFsaWduOiBjZW50ZXI7XHJcblx0XHRcdFx0YWxpZ24taXRlbXM6IGNlbnRlcjtcclxuXHR9XHJcblxyXG4vKiAgQk9VVE9OUyBERSBTRUxFQ1RJT04gUExBVFMgICovXHJcbiAgXHJcblx0LmJ0bi1kaXNoIHtcclxuXHQgICAgd2lkdGg6IDk1JTtcclxuXHR9XHJcbiAgfVxyXG5cclxuICBcdC50aXRsZS1kaXNoIHtcclxuXHRcdCAgd2lkdGg6IDEwMCU7XHJcblx0XHQgIG1hcmdpbi1sZWZ0OiA0NXB4O1xyXG5cdCAgfVxyXG5cclxuQG1lZGlhIGFsbCBhbmQgKG1heC13aWR0aDogNDAwcHgpIHtcclxuXHJcbi8qICBTRUNUSU9OIE1FTlVQQUdFICAqL1xyXG5cclxuXHQudGl0bGUtc3VwIHtcclxuXHQgICAgZm9udC1zaXplOiAxNHB4O1xyXG5cdH1cclxuICBcclxuXHQubWVudXBhZ2Uge1xyXG5cdCAgICBtYXJnaW46IDBweCAxMHB4IDMwcHggMTBweDtcclxuXHR9XHJcbn0iXX0= */

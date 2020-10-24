@@ -1,0 +1,6 @@
+@mixin desktop-only {
+    @media all and (min-width: map-get($breakpoints, desktop)){
+        display: flex;
+		flex-direction: column;
+    }
+}
