@@ -180,18 +180,18 @@ main {
   background-color: #fff;
 }
 
-.menu-titre {
-  display: flex;
-  margin: 15px;
-  padding-bottom: 20px;
-  justify-content: space-between;
-  background-color: #fff;
-  border-radius: 20px 20px 0 0;
-}
-
-.menu-titre a {
+.menu a {
   color: #000;
   text-decoration: none;
+}
+
+.menu-titre {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 15px 0;
+  padding-bottom: 20px;
+  background-color: #fff;
+  border-radius: 20px 20px 0 0;
 }
 
 /*  MAIN ACCUEIL - Promo  */
@@ -202,7 +202,7 @@ main {
   width: 100px;
   padding: 15px;
   color: #0c6b50;
-  background: #15DEA5;
+  background: #99E2D0;
   border-radius: 3px;
   text-align: center;
 }
@@ -229,13 +229,9 @@ main {
   border-radius: 40px 40px 0 0;
 }
 
-.checkbox-like--position {
-  margin-top: 20px;
-}
-
 /*  MAIN PAGES - section menupages  */
 .title-underline {
-  border-bottom: 3px solid #15DEA5;
+  border-bottom: 3px solid #99E2D0;
   padding-bottom: 5px;
 }
 
@@ -325,9 +321,17 @@ main {
 
 /*  BOUTONS - checkbox like  */
 .checkbox-like {
+  position: absolute;
+  right: 20px;
+  bottom: 35px;
+  height: 25px;
   font-size: 25px;
   cursor: pointer;
-  height: 25px;
+}
+
+.checkbox-like.checkbox-like--position {
+  position: initial;
+  margin-top: 20px;
 }
 
 .checkbox-like input[type=checkbox]:checked ~ .unchecked {
@@ -391,7 +395,7 @@ main {
 .box {
   overflow: hidden;
   text-align: center;
-  background: #15DEA5;
+  background: #99E2D0;
   width: 0;
   align-items: center;
   transition: width 1s;

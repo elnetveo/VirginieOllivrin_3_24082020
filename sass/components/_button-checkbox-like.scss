@@ -1,9 +1,17 @@
 /*  BOUTONS - checkbox like  */
 
 .checkbox-like {
+	position: absolute;
+	right: 20px;
+	bottom: 35px;
+	height: 25px;
 	font-size: 25px;
 	cursor: pointer;
-  	height: 25px;
+}
+
+.checkbox-like.checkbox-like--position {
+	position: initial;
+	margin-top: 20px;
 }
 
 .checkbox-like input[type="checkbox"]:checked ~ .unchecked {

@@ -106,18 +106,18 @@
 	background-color: #fff;
 }
 
-.menu-titre {
-	display: flex;
-	margin: 15px;
-	padding-bottom: 20px;
-	justify-content: space-between;
-	background-color: #fff;
-	border-radius: 20px 20px 0 0;
-}
-
-.menu-titre a {
+.menu a {
 	color: #000;
 	text-decoration: none;
+}
+
+.menu-titre {
+	display: flex;
+	flex-direction: column;
+	margin: 10px 15px 0;
+	padding-bottom: 20px;
+	background-color: #fff;
+	border-radius: 20px 20px 0 0;
 }
 
 /*  MAIN ACCUEIL - Promo  */
